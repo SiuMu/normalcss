@@ -1,0 +1,106 @@
+/*
+  flex布局超集,使用flex布局必用。
+  默认行式布局，元素垂直居中。
+  该类写在最左边，右边的类中同名属性会将它覆盖掉。
+*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* 列式弹性盒子 */
+.flex-col {
+    flex-direction: column;
+}
+
+/* 换行 */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* 不换行 */
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+/* flex-item-*, 子元素对齐方式 ↓ */
+/* 列式布局垂直居中 */
+.flex-col-center {
+    align-items: center;
+}
+
+/* 列式布局顶部对齐 */
+.flex-col-top {
+    align-items: flex-start;
+}
+
+/* 列式布局底部对齐 */
+.flex-col-bottom {
+    align-items: flex-end;
+}
+
+/* 行式布局左边对齐 */
+.flex-row-left {
+    justify-content: flex-start;
+}
+
+/* 行式布局水平居中 */
+.flex-row-center {
+    justify-content: center;
+}
+
+/* 行式布局右边对齐 */
+.flex-row-right {
+    justify-content: flex-end;
+}
+
+/* 行式布局水平两端对齐，项目之间的间隔都相等 */
+.flex-row-between {
+    justify-content: space-between;
+}
+
+/* 行式布局，水平每个项目两侧的间隔相等，所以项目之间的间隔比项目与父元素两边的间隔大一倍 */
+.flex-row-around {
+    justify-content: space-around;
+}
+
+/*
+  ↓ 以下写在子元素class中，表示子元素占据空间大小
+*/
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
+}
+
+.flex-6 {
+    flex: 6;
+}
+
+.flex-7 {
+    flex: 7;
+}
+
+.flex-8 {
+    flex: 8;
+}
+
+.flex-9 {
+    flex: 9;
+}
+
